@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<title>Artboard</title>
+<desc>Created with Sketch.</desc>
+<g id="Artboard">
+	
+		<linearGradient id="Oval_1_" gradientUnits="userSpaceOnUse" x1="202.7986" y1="920.5791" x2="202.7986" y2="919.5865" gradientTransform="matrix(1000 0 0 -1000 -202298.25 920578.5)">
+		<stop  offset="0" style="stop-color:#2AABEE"/>
+		<stop  offset="1" style="stop-color:#229ED9"/>
+	</linearGradient>
+	<circle id="Oval" fill="url(#Oval_1_)" cx="500" cy="500" r="500"/>
+	<path id="Path-3" fill="#FFFFFF" d="M226.328,494.722c145.76-63.505,242.956-105.372,291.589-125.6
+		c138.855-57.755,167.708-67.787,186.514-68.119c4.137-0.073,13.385,0.952,19.375,5.813c5.059,4.104,6.45,9.649,7.116,13.541
+		s1.495,12.756,0.836,19.683c-7.524,79.062-40.083,270.924-56.647,359.475c-7.009,37.469-20.81,50.032-34.17,51.262
+		c-29.036,2.672-51.085-19.189-79.208-37.624c-44.006-28.847-68.867-46.804-111.583-74.953
+		c-49.365-32.531-17.364-50.411,10.77-79.632c7.362-7.646,135.296-124.012,137.771-134.568c0.31-1.32,0.598-6.241-2.326-8.839
+		c-2.924-2.599-7.238-1.71-10.353-1.003c-4.413,1.002-74.715,47.468-210.902,139.399c-19.955,13.702-38.029,20.378-54.224,20.028
+		c-17.853-0.386-52.193-10.094-77.723-18.393c-31.312-10.179-56.199-15.56-54.032-32.846
+		C190.26,513.343,202.659,504.135,226.328,494.722z"/>
+</g>
+</svg>
