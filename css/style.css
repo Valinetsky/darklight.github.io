@@ -86,36 +86,6 @@ html {
   scroll-behavior: smooth;
 }
 
-table {
-  font-size: 1.2rem;
-  border-collapse: collapse;
-  border-spacing: 0;
-  border: none;
-  border-style: hidden;
-}
-@media screen and (max-width: 320px) {
-  table {
-    font-size: 0.8rem;
-    line-height: 1.2;
-    max-width: 16rem;
-  }
-}
-
-td {
-  border-bottom: 1px solid white;
-  vertical-align: top;
-  padding: 0.5rem 0;
-}
-@media screen and (max-width: 320px) {
-  td {
-    padding: 0.4rem 0;
-  }
-}
-
-td:last-child {
-  text-align: right;
-}
-
 .ibg {
   background-position: center;
   background-size: cover;
@@ -224,6 +194,11 @@ a {
     padding: 2rem 0;
   }
 }
+@media screen and (min-width: 321px) and (max-width: 1024px) {
+  .open {
+    padding: 4rem 0;
+  }
+}
 .open__container {
   height: 100%;
   display: -webkit-box;
@@ -243,11 +218,18 @@ a {
 .open__subheader {
   font-size: 3.75rem;
   margin: 0 0 4.5rem 0;
+  padding: 0 0.5rem;
+  line-height: 1.2;
 }
 @media screen and (max-width: 320px) {
   .open__subheader {
     font-size: 1.5rem;
     margin: 0 0 2.5rem 0;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 1024px) {
+  .open__subheader {
+    font-size: 2rem;
   }
 }
 .open__earth {
@@ -264,7 +246,9 @@ a {
 .open__header {
   font-family: "Cormorant Garamond", serif;
   font-size: 5rem;
+  line-height: 1.2;
   text-shadow: 0px 0px 10px black;
+  padding: 0 0.5rem;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -273,6 +257,16 @@ a {
   .open__header {
     font-size: 2.5rem;
     line-height: 1.2;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .open__header {
+    font-size: 2.8rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .open__header {
+    font-size: 4rem;
   }
 }
 .open__link {
@@ -288,6 +282,11 @@ a {
   .open__link {
     font-size: 1rem;
     padding: 0.3rem 1.5rem;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .open__link {
+    font-size: 1rem;
   }
 }
 .open__link span {
@@ -316,12 +315,6 @@ a {
   max-width: 62.5rem;
   margin: 0 auto;
 }
-@media screen and (max-width: 320px) {
-  .wrapper {
-    width: 100%;
-    padding: 0 0.4rem;
-  }
-}
 
 .quote {
   font-size: 2.5rem;
@@ -329,13 +322,29 @@ a {
   text-align: center;
   max-width: 59.5rem;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 @media screen and (max-width: 320px) {
   .quote {
     font-size: 1rem;
     line-height: 1.2rem;
-    text-align: center;
     width: 100%;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 600px) {
+  .quote {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .quote {
+    font-size: 2rem;
+    line-height: 1.2;
+    width: 100%;
+    padding: 0 1rem;
   }
 }
 
@@ -350,6 +359,11 @@ a {
 @media screen and (max-width: 320px) {
   .h2 {
     font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .h2 {
+    font-size: 2rem;
   }
 }
 
@@ -382,6 +396,16 @@ a {
     background: url("../../img/Lunolet__lunolet.png") center bottom/contain no-repeat;
   }
 }
+@media screen and (min-width: 321px) and (max-width: 610px) {
+  .lun {
+    background: url("../../img/Lunolet__lunolet.png") center bottom/contain no-repeat;
+  }
+}
+@media screen and (min-width: 611px) and (max-width: 1024px) {
+  .lun {
+    background: url("../../img/Lunolet__lunolet.png") center bottom/80% no-repeat;
+  }
+}
 .lun__top {
   width: 100%;
   border-bottom: 1px solid #4e7bad;
@@ -392,7 +416,7 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 620px) {
   .lun__top {
     background: #4e7bad;
   }
@@ -410,11 +434,16 @@ a {
   height: 4rem;
   color: #C5D4E4;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 620px) {
   .lun__nav {
     font-size: 1.5rem;
     height: 100vh;
     background: #4e7bad;
+  }
+}
+@media screen and (min-width: 621px) and (max-width: 900px) {
+  .lun__nav {
+    font-size: 1rem;
   }
 }
 .lun__ul {
@@ -422,7 +451,7 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 620px) {
   .lun__ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -451,12 +480,22 @@ a {
     width: 100%;
   }
 }
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .lun__container {
+    padding: 2rem 0 1rem 0;
+  }
+}
 .lun__header {
   margin: 0 auto 4rem auto;
 }
 @media screen and (max-width: 320px) {
   .lun__header {
     margin: 0 auto 0.8rem auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lun__header {
+    margin: 0 auto 1rem auto;
   }
 }
 .lun__text {
@@ -476,6 +515,23 @@ a {
     text-align: left;
     font-weight: 300;
     padding: 0 0.4rem;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 610px) {
+  .lun__text {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-indent: 1rem;
+    text-align: left;
+    font-weight: 300;
+    padding: 0 0.4rem;
+  }
+}
+@media screen and (min-width: 611px) and (max-width: 768px) {
+  .lun__text {
+    padding: 0 1rem;
+    text-align: left;
   }
 }
 .lun__text p {
@@ -495,7 +551,7 @@ a {
   height: 4.5rem;
   margin: 5.25rem auto 2.625rem auto;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .lun__icon {
     width: 2rem;
     height: 4.5rem;
@@ -516,6 +572,16 @@ a {
     height: 12.5rem;
   }
 }
+@media screen and (min-width: 321px) and (max-width: 600px) {
+  .lun__footer {
+    height: 20rem;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .lun__footer {
+    height: 25rem;
+  }
+}
 .lun__pict {
   position: absolute;
   top: 4rem;
@@ -524,7 +590,7 @@ a {
 
 .left__arrow {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 5rem;
   -webkit-transform: translate(0, -50%) rotate(-135deg);
           transform: translate(0, -50%) rotate(-135deg);
@@ -534,7 +600,7 @@ a {
 
 .right__arrow {
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: 5rem;
   -webkit-transform: translate(0, -50%) rotate(45deg);
           transform: translate(0, -50%) rotate(45deg);
@@ -713,6 +779,47 @@ a {
   margin: 4vh auto 1vh auto;
   color: white;
 }
+table {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
+  border-style: hidden;
+  margin: 0 auto;
+}
+@media screen and (max-width: 320px) {
+  table {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 425px) {
+  table {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  table {
+    font-size: 1rem;
+    max-width: 70%;
+  }
+}
+
+td {
+  border-bottom: 1px solid white;
+  vertical-align: top;
+  padding: 0.5rem 0;
+}
+@media screen and (min-width: 320px) {
+  td {
+    padding: 0.4rem 0;
+  }
+}
+
+td:last-child {
+  text-align: right;
+}
+
 .moon:before {
   content: "";
   position: absolute;
@@ -744,6 +851,24 @@ a {
     padding: 1rem 0 7rem 0;
   }
 }
+@media screen and (max-width: 768px) {
+  .program {
+    padding: 1rem 0 7rem 0;
+    background: url("../../img/Lunolet__algorithm.png") left bottom/50% no-repeat;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .program {
+    padding: 1rem 0 7rem 0;
+    background: url("../../img/Lunolet__algorithm.png") left bottom/30% no-repeat;
+  }
+}
+@media screen and (max-width: 425px) {
+  .program {
+    padding: 1rem 0 4rem 0;
+    background: url("../../img/Lunolet__algorithm.png") left bottom/50% no-repeat;
+  }
+}
 .program__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -757,6 +882,11 @@ a {
   margin: 0 auto 4rem auto;
 }
 @media screen and (max-width: 320px) {
+  .program__header {
+    margin: 0 auto 1rem auto;
+  }
+}
+@media screen and (max-width: 768px) {
   .program__header {
     margin: 0 auto 1rem auto;
   }
@@ -799,6 +929,11 @@ a {
   .down {
     padding: 1rem;
     height: 100vh;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .down {
+    padding: 1rem;
   }
 }
 .down__quote {
@@ -858,15 +993,30 @@ a {
   .down__text {
     font-size: 1rem;
     padding: 0 2rem;
-    line-height: 1;
+    line-height: 1.1;
   }
 }
 
 .creators {
   padding: 3.75rem 1rem 30.25rem 1rem;
-  background: url("../../img/Lunolet__footer.png") center bottom/contain no-repeat;
+  background: url("../../img/lunolet__footer.png") center bottom/contain no-repeat;
 }
 @media screen and (max-width: 320px) {
+  .creators {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .creators {
+    padding: 3.75rem 1rem 15rem 1rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .creators {
+    padding: 3.75rem 1rem 8rem 1rem;
+  }
+}
+@media screen and (max-width: 425px) {
   .creators {
     padding: 1rem 1rem 2rem 1rem;
   }
@@ -880,6 +1030,16 @@ a {
 @media screen and (max-width: 320px) {
   .creators__header {
     margin: 0 auto 0.5rem auto;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .creators__header {
+    margin: 0 auto 2rem auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  .creators__header {
+    margin: 0 auto 1rem auto;
   }
 }
 .creators__holder {
@@ -902,6 +1062,11 @@ a {
           flex-direction: column;
   margin: 0 1.875rem 5rem 1.875rem;
 }
+@media screen and (max-width: 1440px) {
+  .creators__item {
+    margin: 0 1.5rem 5rem 1.5rem;
+  }
+}
 .creators__photo img {
   width: 100%;
   height: 35.375rem;
@@ -913,6 +1078,11 @@ a {
     height: auto;
   }
 }
+@media screen and (max-width: 425px) {
+  .creators__photo img {
+    height: 30rem;
+  }
+}
 .creators__text {
   padding: 2rem 0;
   text-align: center;
@@ -921,6 +1091,11 @@ a {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
+@media screen and (max-width: 320px) {
+  .creators__text {
+    padding: 1rem 0;
+  }
+}
 .creators__name {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -928,6 +1103,12 @@ a {
 @media screen and (max-width: 320px) {
   .creators__name {
     font-size: 1.2rem;
+    line-height: 1.2;
+  }
+}
+@media screen and (max-width: 425px) {
+  .creators__name {
+    font-size: 1.8rem;
     line-height: 1.2;
   }
 }
@@ -940,6 +1121,14 @@ a {
   .creators__comment {
     font-size: 0.9rem;
     line-height: 1.2;
+    padding: 0 0.5rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .creators__comment {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    padding: 0 0.5rem;
   }
 }
 
@@ -947,6 +1136,11 @@ a {
   background: #4e7bad;
   padding: 3.75rem;
   color: white;
+}
+@media screen and (max-width: 425px) {
+  .footer {
+    height: 100vh;
+  }
 }
 .footer__container {
   display: -webkit-box;
@@ -957,6 +1151,14 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+}
+@media screen and (max-width: 320px) {
+  .footer__container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+  }
 }
 .footer__header {
   margin: 0 auto 2rem auto;
