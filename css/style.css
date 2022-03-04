@@ -136,7 +136,7 @@ html {
   height: 2rem;
   width: 2rem;
   border-radius: 10%;
-  background: #C5D4E4 url("../../img/icon.svg") center/80% 80% no-repeat;
+  background: #C5D4E4 url("../img/icon.svg") center/80% 80% no-repeat;
   position: relative;
   -webkit-animation: arrow 2s ease infinite;
           animation: arrow 2s ease infinite;
@@ -389,21 +389,21 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("../../img/lunlun.png") center bottom 5rem no-repeat;
+  background: url("../img/lunlun.png") center bottom 5rem no-repeat;
 }
 @media screen and (max-width: 320px) {
   .lun {
-    background: url("../../img/lunlun.png") center bottom/contain no-repeat;
+    background: url("../img/lunlun.png") center bottom/contain no-repeat;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 610px) {
   .lun {
-    background: url("../../img/lunlun.png") center bottom/contain no-repeat;
+    background: url("../img/lunlun.png") center bottom/contain no-repeat;
   }
 }
 @media screen and (min-width: 611px) and (max-width: 1024px) {
   .lun {
-    background: url("../../img/lunlun.png") center bottom/80% no-repeat;
+    background: url("../img/lunlun.png") center bottom/80% no-repeat;
   }
 }
 .lun__top {
@@ -843,30 +843,30 @@ td:last-child {
 
 .program {
   padding: 3.75rem 0;
-  background: url("../../img/lunalgo.png") left bottom no-repeat;
+  background: url("../img/lunalgo.png") left bottom no-repeat;
 }
 @media screen and (max-width: 320px) {
   .program {
-    background: url("../../img/lunalgo.png") left bottom/contain no-repeat;
+    background: url("../img/lunalgo.png") left bottom/contain no-repeat;
     padding: 1rem 0 7rem 0;
   }
 }
 @media screen and (max-width: 768px) {
   .program {
     padding: 1rem 0 7rem 0;
-    background: url("../../img/lunalgo.png") left bottom/50% no-repeat;
+    background: url("../img/lunalgo.png") left bottom/50% no-repeat;
   }
 }
 @media screen and (max-width: 1024px) {
   .program {
     padding: 1rem 0 7rem 0;
-    background: url("../../img/lunalgo.png") left bottom/30% no-repeat;
+    background: url("../img/lunalgo.png") left bottom/30% no-repeat;
   }
 }
 @media screen and (max-width: 425px) {
   .program {
     padding: 1rem 0 4rem 0;
-    background: url("../../img/lunalgo.png") left bottom/50% no-repeat;
+    background: url("../img/lunalgo.png") left bottom/50% no-repeat;
   }
 }
 .program__container {
@@ -999,7 +999,7 @@ td:last-child {
 
 .creators {
   padding: 3.75rem 1rem 30.25rem 1rem;
-  background: url("../../img/lunfoot.png") center bottom/contain no-repeat;
+  background: url("../img/lunfoot.png") center bottom/contain no-repeat;
 }
 @media screen and (max-width: 320px) {
   .creators {
