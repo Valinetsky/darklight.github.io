@@ -136,7 +136,7 @@ html {
   height: 2rem;
   width: 2rem;
   border-radius: 10%;
-  background: #C5D4E4 url("../../img/Icon.svg") center/80% 80% no-repeat;
+  background: #C5D4E4 url("../../img/icon.svg") center/80% 80% no-repeat;
   position: relative;
   -webkit-animation: arrow 2s ease infinite;
           animation: arrow 2s ease infinite;
