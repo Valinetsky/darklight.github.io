@@ -126,7 +126,7 @@ html {
   display: none;
   z-index: 9999;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 700px) {
   .scroll-up {
     bottom: 2rem;
     right: 1rem;
@@ -136,7 +136,7 @@ html {
   height: 2rem;
   width: 2rem;
   border-radius: 10%;
-  background: #C5D4E4 url("../img/icon.svg") center/80% 80% no-repeat;
+  background: #C5D4E4 url("../img/Icon.svg") center/80% 80% no-repeat;
   position: relative;
   -webkit-animation: arrow 2s ease infinite;
           animation: arrow 2s ease infinite;
@@ -171,7 +171,7 @@ a {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .arrow {
     width: 0.5rem;
     height: 0.5rem;
@@ -221,13 +221,13 @@ a {
   padding: 0 0.5rem;
   line-height: 1.2;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .open__subheader {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0 0 2.5rem 0;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 1024px) {
+@media screen and (min-width: 361px) and (max-width: 1024px) {
   .open__subheader {
     font-size: 2rem;
   }
@@ -253,13 +253,13 @@ a {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .open__header {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 1.2;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 361px) and (max-width: 768px) {
   .open__header {
     font-size: 2.8rem;
   }
@@ -293,12 +293,6 @@ a {
   letter-spacing: 0.2rem;
 }
 .open__arrow {
-  /* 		width: 1.5rem;
-  	    height: 1.5rem;
-  	    border-top: 2px solid white;
-  	    border-right: 2px solid white;
-  	    margin: 2rem auto 0;
-  	    transform: rotate(-45deg); */
   position: relative;
   -webkit-animation: arrow 1s infinite ease;
           animation: arrow 1s infinite ease;
@@ -324,14 +318,14 @@ a {
   margin: 0 auto;
   padding: 0 1rem;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .quote {
     font-size: 1rem;
     line-height: 1.2rem;
     width: 100%;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 600px) {
+@media screen and (min-width: 361px) and (max-width: 600px) {
   .quote {
     font-size: 1.5rem;
     line-height: 1.2;
@@ -371,7 +365,7 @@ a {
   font-size: 2.5rem;
   margin: 0 0 1rem 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .h3 {
     font-size: 1.6rem;
     margin: 0 0 0.2rem 0;
@@ -389,21 +383,21 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("../img/lunlun.png") center bottom 5rem no-repeat;
+  background: url("../img/Lunolet__lunolet.jpg") center bottom 5rem no-repeat;
 }
 @media screen and (max-width: 320px) {
   .lun {
-    background: url("../img/lunlun.png") center bottom/contain no-repeat;
+    background: url("../img/Lunolet__lunolet.jpg") center bottom/contain no-repeat;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 610px) {
   .lun {
-    background: url("../img/lunlun.png") center bottom/contain no-repeat;
+    background: url("../img/Lunolet__lunolet.jpg") center bottom/contain no-repeat;
   }
 }
 @media screen and (min-width: 611px) and (max-width: 1024px) {
   .lun {
-    background: url("../img/lunlun.png") center bottom/80% no-repeat;
+    background: url("../img/Lunolet__lunolet.jpg") center bottom/80% no-repeat;
   }
 }
 .lun__top {
@@ -486,7 +480,7 @@ a {
   }
 }
 .lun__header {
-  margin: 0 auto 4rem auto;
+  margin: 0 auto 2rem auto;
 }
 @media screen and (max-width: 320px) {
   .lun__header {
@@ -597,6 +591,11 @@ a {
   -webkit-animation: arrow_left 1s infinite ease-in;
           animation: arrow_left 1s infinite ease-in;
 }
+@media screen and (max-width: 360px) {
+  .left__arrow {
+    top: 30%;
+  }
+}
 
 .right__arrow {
   position: absolute;
@@ -606,6 +605,11 @@ a {
           transform: translate(0, -50%) rotate(45deg);
   -webkit-animation: arrow_right 1s infinite ease-in;
           animation: arrow_right 1s infinite ease-in;
+}
+@media screen and (max-width: 360px) {
+  .right__arrow {
+    top: 30%;
+  }
 }
 
 .round {
@@ -791,11 +795,15 @@ table {
 @media screen and (max-width: 320px) {
   table {
     font-size: 0.8rem;
+    width: 19rem;
+    margin-bottom: 1rem;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 425px) {
   table {
     font-size: 0.9rem;
+    width: 19rem;
+    margin-bottom: 1rem;
   }
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -843,30 +851,30 @@ td:last-child {
 
 .program {
   padding: 3.75rem 0;
-  background: url("../img/lunalgo.png") left bottom no-repeat;
+  background: url("../img/Lunolet__algorithm.jpg") left bottom no-repeat;
 }
 @media screen and (max-width: 320px) {
   .program {
-    background: url("../img/lunalgo.png") left bottom/contain no-repeat;
+    background: url("../img/Lunolet__algorithm.jpg") left bottom/contain no-repeat;
     padding: 1rem 0 7rem 0;
   }
 }
 @media screen and (max-width: 768px) {
   .program {
     padding: 1rem 0 7rem 0;
-    background: url("../img/lunalgo.png") left bottom/50% no-repeat;
+    background: url("../img/Lunolet__algorithm.jpg") left bottom/50% no-repeat;
   }
 }
 @media screen and (max-width: 1024px) {
   .program {
     padding: 1rem 0 7rem 0;
-    background: url("../img/lunalgo.png") left bottom/30% no-repeat;
+    background: url("../img/Lunolet__algorithm.jpg") left bottom/30% no-repeat;
   }
 }
 @media screen and (max-width: 425px) {
   .program {
     padding: 1rem 0 4rem 0;
-    background: url("../img/lunalgo.png") left bottom/50% no-repeat;
+    background: url("../img/Lunolet__algorithm.jpg") left bottom/50% no-repeat;
   }
 }
 .program__container {
@@ -879,7 +887,7 @@ td:last-child {
           flex-direction: column;
 }
 .program__header {
-  margin: 0 auto 4rem auto;
+  margin: 0 auto 2rem auto;
 }
 @media screen and (max-width: 320px) {
   .program__header {
@@ -901,7 +909,7 @@ td:last-child {
       justify-content: space-around;
   margin: 3.75rem 0 0 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .program__scheme {
     margin: 1rem 0 0 0;
   }
@@ -913,10 +921,10 @@ td:last-child {
   -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 20px 40px 0px;
           box-shadow: rgba(0, 0, 0, 0.4) 0px 20px 40px 0px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .program__blueprint {
-    width: 80vh;
-    height: 80vh;
+    height: 90vh;
+    margin-bottom: 2rem;
   }
 }
 
@@ -925,10 +933,9 @@ td:last-child {
   padding: 3.75rem;
   color: white;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .down {
     padding: 1rem;
-    height: 100vh;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -939,7 +946,7 @@ td:last-child {
 .down__quote {
   margin: 0 0 2.5rem 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .down__quote {
     margin: 0 0 1rem 0;
   }
@@ -958,7 +965,7 @@ td:last-child {
       -ms-flex-align: stretch;
           align-items: stretch;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .down__boxes {
     padding: 0rem 1.5rem;
   }
@@ -973,7 +980,7 @@ td:last-child {
       -ms-flex-positive: auto;
           flex-grow: auto;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .down__colors {
     margin: 0 1rem 1.5rem 1rem;
   }
@@ -989,7 +996,7 @@ td:last-child {
   padding: 0 2rem;
   line-height: 2.25rem;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .down__text {
     font-size: 1rem;
     padding: 0 2rem;
@@ -998,48 +1005,23 @@ td:last-child {
 }
 
 .creators {
-  padding: 3.75rem 1rem 30.25rem 1rem;
-  background: url("../img/lunfoot.png") center bottom/contain no-repeat;
+  padding: 3.75rem 1rem 26rem 1rem;
+  background: url("../img/Lunolet__footer.jpg") center bottom/contain no-repeat;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .creators {
-    padding: 1rem 1rem 2rem 1rem;
-  }
-}
-@media screen and (max-width: 1440px) {
-  .creators {
-    padding: 3.75rem 1rem 15rem 1rem;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .creators {
-    padding: 3.75rem 1rem 8rem 1rem;
-  }
-}
-@media screen and (max-width: 425px) {
-  .creators {
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem 1rem 2.2rem 1rem;
   }
 }
 .creators__container {
   margin: 0 auto;
 }
 .creators__header {
-  margin: 0 auto 4rem auto;
+  margin: 0 auto 2rem auto;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .creators__header {
     margin: 0 auto 0.5rem auto;
-  }
-}
-@media screen and (max-width: 1440px) {
-  .creators__header {
-    margin: 0 auto 2rem auto;
-  }
-}
-@media screen and (max-width: 425px) {
-  .creators__header {
-    margin: 0 auto 1rem auto;
   }
 }
 .creators__holder {
@@ -1052,7 +1034,8 @@ td:last-child {
       flex-wrap: wrap;
 }
 .creators__item {
-  width: 26.25rem;
+  width: 25rem;
+  margin: 0 1rem 2rem 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1060,11 +1043,10 @@ td:last-child {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0 1.875rem 5rem 1.875rem;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 360px) {
   .creators__item {
-    margin: 0 1.5rem 5rem 1.5rem;
+    margin-bottom: 1rem;
   }
 }
 .creators__photo img {
@@ -1072,43 +1054,39 @@ td:last-child {
   height: 35.375rem;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
-@media screen and (max-width: 320px) {
-  .creators__photo img {
-    height: auto;
-  }
+.creators__photo img:first-child {
+  -o-object-position: center;
+     object-position: center;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 360px) {
   .creators__photo img {
-    height: 30rem;
+    height: 20rem;
   }
 }
 .creators__text {
-  padding: 2rem 0;
+  padding: 1rem 0.5rem;
   text-align: center;
   background: #C5D4E4;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .creators__text {
     padding: 1rem 0;
   }
 }
 .creators__name {
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 2.5rem;
+  margin-bottom: 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .creators__name {
     font-size: 1.2rem;
-    line-height: 1.2;
-  }
-}
-@media screen and (max-width: 425px) {
-  .creators__name {
-    font-size: 1.8rem;
     line-height: 1.2;
   }
 }
@@ -1117,14 +1095,7 @@ td:last-child {
   padding: 0 2rem;
   line-height: 2.25rem;
 }
-@media screen and (max-width: 320px) {
-  .creators__comment {
-    font-size: 0.9rem;
-    line-height: 1.2;
-    padding: 0 0.5rem;
-  }
-}
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 360px) {
   .creators__comment {
     font-size: 0.9rem;
     line-height: 1.2;
@@ -1186,35 +1157,6 @@ td:last-child {
   transition: transform 1s, -webkit-transform 1s;
 }
 
-/* @keyframes rotation-stop {
-    0% {
-        transform:rotate(0deg);
-    }
-    20% {
-        transform:rotate(0deg);
-    }
-    25% {
-        transform:rotate(90deg);
-    }
-    45% {
-        transform:rotate(90deg);
-    }
-    50% {
-        transform:rotate(180deg);
-    }
-    70% {
-        transform:rotate(180deg);
-    }
-    75% {
-        transform:rotate(270deg);
-    }
-    95% {
-        transform:rotate(270deg);
-    }
-    100% {
-        transform:rotate(360deg);
-    }
-} */
 @-webkit-keyframes calculator-left {
   0% {
     -webkit-transform: rotateY(-1deg) scaleX(0.92);
@@ -1225,6 +1167,7 @@ td:last-child {
             transform: rotateY(0deg) scaleX(1);
   }
 }
+
 @keyframes calculator-left {
   0% {
     -webkit-transform: rotateY(-1deg) scaleX(0.92);
